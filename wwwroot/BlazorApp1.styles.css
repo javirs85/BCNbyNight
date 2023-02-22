@@ -1,0 +1,504 @@
+@import '_content/Blazored.Toast/Blazored.Toast.bundle.scp.css';
+
+/* /Components/CharacterViewer.razor.rz.scp.css */
+.Entry[b-x8cwkc9nvc]{
+
+}
+.EntryTitle[b-x8cwkc9nvc] {
+    font-family: 'Alegreya SC', serif;
+    font-size: 20px;    
+}
+.EntryBody[b-x8cwkc9nvc] {
+    margin-left: 15px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.75;
+}
+
+.MainColumn[b-x8cwkc9nvc] {
+    width: 490px;
+    border-right: solid 1px #424183;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+.IntroQuestions[b-x8cwkc9nvc]{
+    display:flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.QuestionTitle[b-x8cwkc9nvc] {
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.plusbutton[b-x8cwkc9nvc]{
+    opacity: 0.7;
+    cursor:pointer;
+}
+.plusbutton:hover[b-x8cwkc9nvc]{
+    opacity:1;
+}
+
+.DebtItem[b-x8cwkc9nvc] {
+    background: #1f1f34;
+}
+
+.DeleteCharacterButton[b-x8cwkc9nvc]{
+    color:red;
+    border:1px solid red;
+    padding: 5px 15px;
+    border-radius: 10px;
+    display:flex;
+    justify-content:center;
+    opacity: 0.4;
+    cursor:pointer;
+}
+    .DeleteCharacterButton:hover[b-x8cwkc9nvc] {
+        opacity: 1;
+        background-color: #2e0404;
+    }
+
+/* /Components/DebtViewer.razor.rz.scp.css */
+.NameButton[b-yte842czh5] {
+    padding: 5px 10px;
+    margin: 0 5px 0 5px;
+    background: #353556b3;
+}
+    .NameButton:hover[b-yte842czh5] {
+        background: #585881;
+        cursor: pointer;
+        font-weight: 800;
+    }
+
+.TransparentTextArea[b-yte842czh5]{
+    background:transparent;
+    color:white;
+    border:none;
+    width:100%;
+}
+/* /Components/EditableInt.razor.rz.scp.css */
+.SimpleImput[b-oy5ham1cle] {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+/* /Components/EditableLabel.razor.rz.scp.css */
+.SimpleImput[b-alpj87x5ff] {
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+/* /Components/FactionActionViwer.razor.rz.scp.css */
+.AvailableFactionsContainer[b-n03590q4p1] {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px;
+    flex-direction: column;
+    border: 1px solid #4846cd;
+    border-radius: 20px;
+}
+.ClicableFaction[b-n03590q4p1] {
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+}
+    .ClicableFaction:hover[b-n03590q4p1] {
+        background: #23218d;
+    }
+.MovmentsContainer[b-n03590q4p1] {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.Move[b-n03590q4p1] {
+    max-width: 600px;
+    background: #181756;
+    padding: 10px;
+}
+/* /Components/FactionTurnViewer.razor.rz.scp.css */
+body[b-suydivb8hn] {
+}
+/* /Components/FactionViewer.razor.rz.scp.css */
+.FactionColumn[b-075fml2wmh] {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 5px 20px;
+    width: 490px;
+    border-right: solid 1px #424183;
+}
+
+.EntryTitle[b-075fml2wmh] {
+    font-family: 'Alegreya SC', serif;
+    font-size: 20px;
+}
+
+.EntryBody[b-075fml2wmh] {
+    margin-left: 15px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.75;
+}
+
+.minionTable[b-075fml2wmh] {
+    width: 100%;    
+}
+    .minionTable tr[b-075fml2wmh]{
+        border-bottom:1px solid white;
+    }
+    .minionTable td[b-075fml2wmh] {
+        padding: 5px;
+        vertical-align: text-bottom;
+    }
+    .minionTable td:not(:last-child)[b-075fml2wmh] {
+        white-space: nowrap;
+    }
+    .minionTable td:last-child[b-075fml2wmh] {
+        width: 100%;
+    }
+
+.AddMinionButton[b-075fml2wmh] {
+    color: green;
+    display: flex;
+    margin: 15px;
+}
+    .AddMinionButton div[b-075fml2wmh] {
+        border: 1px solid green;
+        border-radius: 10px;
+        padding: 5px 10px;
+        opacity: 0.8;
+        cursor:pointer;
+    }
+        .AddMinionButton div:hover[b-075fml2wmh] {
+            background: #00800040;
+            opacity: 1;
+        }
+
+.MinionDeletebutton[b-075fml2wmh]{
+    cursor:pointer;
+    opacity: 0.5;
+}
+.MinionDeletebutton:hover[b-075fml2wmh]{
+    opacity:1;
+}
+/* /Components/MenuViewer.razor.rz.scp.css */
+.MainMenu[b-3kh4gw1my9] {
+    background: #0A0A27;
+    width: 248px;
+    height: 100vh;
+    position: fixed;
+    color:white;
+}
+.MenuTopRow[b-3kh4gw1my9]{
+    display: flex;
+}
+.MenuBigButton[b-3kh4gw1my9] {
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-family: 'Alegreya SC', serif;
+    font-size: 18px;
+}
+    .MenuBigButton:hover[b-3kh4gw1my9] {
+        background: #1C1B60;
+    }
+
+    .MenuTopRowItem[b-3kh4gw1my9] {
+        flex-grow: 1;
+        background: black;
+        height: 48px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: gray;
+        border-bottom: 1px solid #5767FB;
+        cursor: pointer;
+    }
+.MenuTopRowItemSelected[b-3kh4gw1my9] {
+    color: white;
+    background: rgb(28 27 96 / 40%);
+    border-top: 1px solid #5767FB;
+    border-right: 1px solid #5767FB;
+    border-left: 1px solid #5767FB;
+    border-bottom: 0px;
+}
+.MenuFactionHeader[b-3kh4gw1my9] {
+    background: #1C1B60;
+    font-family: 'Alegreya SC', serif;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    cursor:pointer;
+    display:flex;
+}
+    .MenuFactionHeader:hover[b-3kh4gw1my9] {
+        background: #3a3989;
+    }
+.MenuCharacterItem[b-3kh4gw1my9] {
+    padding: 10px;
+    background: #1C1B60;
+    cursor: pointer;
+    padding-left: 20px;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+    .MenuCharacterItem:hover[b-3kh4gw1my9] {
+        background-color: #1C1B60;
+    }
+
+.FactionContainer[b-3kh4gw1my9]{
+    margin-bottom: 15px;
+}
+
+.Character[b-3kh4gw1my9] {
+    /*background-color: #6a105f;*/
+}
+    .Character:hover[b-3kh4gw1my9] {
+        background-color: #8f2181;
+    }
+.CurrentCharacter[b-3kh4gw1my9]{
+    opacity: 1;
+}
+
+.MenuFooter[b-3kh4gw1my9] {
+    display: flex;
+    gap: 10px;
+}
+.MenuFooter img[b-3kh4gw1my9]{
+    cursor:pointer;
+}
+
+/* /Components/RedCheckBox.razor.rz.scp.css */
+.CheckBoxWhite[b-6t06mx05zq] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.CheckBoxTransparent[b-6t06mx05zq] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+.Extrabig[b-6t06mx05zq] {
+    width:28px;
+    height:28px;
+    cursor: default;
+}
+
+.CheckBoxRed[b-6t06mx05zq] {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    background-color: white;
+}
+
+.DarkTheme[b-6t06mx05zq]{
+    width: 22px;
+    height: 22px;
+    border: 1px solid #ffffff66;
+    cursor:pointer;
+    display:flex;
+    align-items: center;
+    justify-content:center;
+}
+/* /Components/RumorsViewer.razor.rz.scp.css */
+.Rumor[b-rgvjjultdm] {
+    background: #1C1B60;
+    margin: 0;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.AddRumorButton[b-rgvjjultdm] {
+    color: green;
+    display: flex;
+    margin: 15px;
+}
+
+    .AddRumorButton div[b-rgvjjultdm] {
+        border: 1px solid green;
+        border-radius: 10px;
+        padding: 5px 10px;
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+        .AddRumorButton div:hover[b-rgvjjultdm] {
+            background: #00800040;
+            opacity: 1;
+        }
+
+.CloseButton[b-rgvjjultdm]{
+    cursor:pointer;
+    opacity:0.5;
+}
+.CloseButton:hover[b-rgvjjultdm]{
+    opacity:1;
+}
+
+li:not(:last-child)[b-rgvjjultdm]
+{
+    margin-bottom: 5px;
+}
+.RumorSeparator[b-rgvjjultdm] {
+    background: #761414;
+    height: 2px;
+}
+/* /Components/SimpleMoveViewer.razor.rz.scp.css */
+.SimpleMoveMain[b-zb6ue6haal]
+{
+
+}
+.SimpleMoveDetail[b-zb6ue6haal]{
+
+}
+.SimpleMoveTitle[b-zb6ue6haal]{
+    font-size:18px;
+}
+/* /Components/Tooltip.razor.rz.scp.css */
+.tooltip-wrapper[b-z4go3x82bo] {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+    cursor: help;
+}
+
+.TooltipSpan[b-z4go3x82bo] {
+    visibility: hidden;
+    position: absolute;
+    padding: 5px 10px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px;
+    background-color: #363636;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    z-index: 1;
+    font-family: Roboto;
+    font-size: 12px;
+}
+
+    .TooltipSpan[b-z4go3x82bo]::after {
+        content: "";
+        position: absolute;
+        top: 100%;
+        left: 50%;
+        margin-left: -5px;
+        border-width: 5px;
+        border-style: solid;
+        border-color: #555 transparent transparent transparent;
+    }
+
+.tooltip-wrapper:hover .TooltipSpan[b-z4go3x82bo] {
+    visibility: visible;
+}
+.BigText[b-z4go3x82bo] {
+    font-family: 'Alegreya SC', serif;
+    font-size: 18px;
+}
+/* /Pages/MainPage.razor.rz.scp.css */
+body[b-18gqrwoh4t] {
+    background-color: #14134E;
+    color:white;
+    font-family: Roboto;
+
+}
+/* /Shared/MainLayout.razor.rz.scp.css */
+.page[b-45rkf8v3vv] {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+main[b-45rkf8v3vv] {
+    flex: 1;
+}
+
+.sidebar[b-45rkf8v3vv] {
+    background-image: linear-gradient(180deg, rgb(5, 39, 103) 0%, #3a0647 70%);
+}
+
+.top-row[b-45rkf8v3vv] {
+    background-color: #f7f7f7;
+    border-bottom: 1px solid #d6d5d5;
+    justify-content: flex-end;
+    height: 3.5rem;
+    display: flex;
+    align-items: center;
+}
+
+    .top-row[b-45rkf8v3vv]  a, .top-row[b-45rkf8v3vv]  .btn-link {
+        white-space: nowrap;
+        margin-left: 1.5rem;
+        text-decoration: none;
+    }
+
+    .top-row[b-45rkf8v3vv]  a:hover, .top-row[b-45rkf8v3vv]  .btn-link:hover {
+        text-decoration: underline;
+    }
+
+    .top-row[b-45rkf8v3vv]  a:first-child {
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+@media (max-width: 640.98px) {
+    .top-row:not(.auth)[b-45rkf8v3vv] {
+        display: none;
+    }
+
+    .top-row.auth[b-45rkf8v3vv] {
+        justify-content: space-between;
+    }
+
+    .top-row[b-45rkf8v3vv]  a, .top-row[b-45rkf8v3vv]  .btn-link {
+        margin-left: 0;
+    }
+}
+
+@media (min-width: 641px) {
+    .page[b-45rkf8v3vv] {
+        flex-direction: row;
+    }
+
+    .sidebar[b-45rkf8v3vv] {
+        width: 250px;
+        height: 100vh;
+        position: sticky;
+        top: 0;
+    }
+
+    .top-row[b-45rkf8v3vv] {
+        position: sticky;
+        top: 0;
+        z-index: 1;
+    }
+
+    .top-row.auth[b-45rkf8v3vv]  a:first-child {
+        flex: 1;
+        text-align: right;
+        width: 0;
+    }
+
+    .top-row[b-45rkf8v3vv], article[b-45rkf8v3vv] {
+        padding-left: 2rem !important;
+        padding-right: 1.5rem !important;
+    }
+}
