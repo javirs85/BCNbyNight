@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "BlazorApp1.dll": "sha256-FpP3DGglrw9nbgS1I6nzDD0tOKKhFeel6oo6Zwzf4ZA=",
+      "BlazorApp1.dll": "sha256-ezCKPK\/Hep6tH53mSG33V+S7+AJooYDDu5s\/GH3sD\/o=",
       "Blazored.Toast.dll": "sha256-CcIVVy2RoxccsJ8RkcFkTbxkDnmYidEQcP\/mHv3o1Zo=",
       "Microsoft.AspNetCore.Components.dll": "sha256-6O\/Ex5hUwbTCL3xQjGvSpJmEfsBL1FwIZKOz5l+jV3Y=",
       "Microsoft.AspNetCore.Components.Forms.dll": "sha256-aQL1K4wB2eInGCZryVHZXd+G+QD4IiTJY9mn8LKlSjc=",
@@ -42,8 +42,7 @@
       "System.Text.Json.dll": "sha256-N2zxrKDH89+Z4G1ZMcMxU4reqFVRb5q9b2TcGB+\/8QE=",
       "System.Text.RegularExpressions.dll": "sha256-MsKDRZnQO7A\/xJ1yVHUZSeJ3cBXRAlt3DCHUhp6N6nY=",
       "System.Threading.dll": "sha256-mpIyr0SQjmnSLJx7EOQRfqPP1c7SZuORCGypwAbSFKE=",
-      "System.Web.HttpUtility.dll": "sha256-trEjHdZYmKBeVmaIr7ShtWBI7AyvOCOjZZeoS1SWt0E=",
-      "USCharacterSupport.dll": "sha256-JaRsyCz5Biey4l3eZM+bGTEBGtYRarnf5M80Eoli1GA="
+      "System.Web.HttpUtility.dll": "sha256-trEjHdZYmKBeVmaIr7ShtWBI7AyvOCOjZZeoS1SWt0E="
     },
     "extensions": null,
     "lazyAssembly": null,
