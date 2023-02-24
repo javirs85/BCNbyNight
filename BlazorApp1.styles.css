@@ -65,6 +65,7 @@
 
 /* /Components/DebtViewer.razor.rz.scp.css */
 .NameButton[b-yte842czh5] {
+    white-space: nowrap;
     padding: 5px 10px;
     margin: 0 5px 0 5px;
     background: #353556b3;
@@ -193,8 +194,6 @@ body[b-suydivb8hn] {
 .MainMenu[b-3kh4gw1my9] {
     background: #0A0A27;
     width: 248px;
-    height: 100vh;
-    position: fixed;
     color:white;
 }
 .MenuTopRow[b-3kh4gw1my9]{
