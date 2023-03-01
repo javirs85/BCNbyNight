@@ -482,12 +482,13 @@ body[b-18gqrwoh4t] {
     height: 100vh;
 }
 
-.PhoneBigDiv[b-18gqrwoh4t]{
+.PhoneBigDiv[b-18gqrwoh4t] {
     width: 100%;
-    height:100%;
-    position:absolute;
-    top:0;
-    left:0;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #1C1E20;
 }
 .PhoneHidden[b-18gqrwoh4t]{
     visibility: collapse;
@@ -495,6 +496,51 @@ body[b-18gqrwoh4t] {
 .PhoneOntop[b-18gqrwoh4t]{
     visibility:visible;
     z-index: 10;
+}
+/* /Phone/PhoneMenu.razor.rz.scp.css */
+.PhoneMenuHeader[b-jmq2v4kwnu] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 44px;
+    background: #1C1E20;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 5px;
+    gap: 5px;
+}
+
+.PhoneMenuHeaderButton[b-jmq2v4kwnu] {
+    width: 25%;
+    height: 40px;
+    background: #303236;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.PhoneMenuHeaderButtonSelected[b-jmq2v4kwnu] {
+    background: white;
+    color: black;
+}
+
+.PhoneMenuFactionBox[b-jmq2v4kwnu] {
+    border-radius: 10px;
+    background: #303236;
+    overflow: hidden;
+}
+.PhoneMenuFactionHeader[b-jmq2v4kwnu] {
+    background-color: #3b3e46;
+    padding: 10px;
+}
+.PhoneMenuItemButton[b-jmq2v4kwnu]{
+    padding:15px;
+    padding-left: 20px;
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-45rkf8v3vv] {
