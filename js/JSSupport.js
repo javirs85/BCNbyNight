@@ -13,3 +13,10 @@
     anchorElement.remove();
     URL.revokeObjectURL(url);
 }
+
+async function IsPhone() {
+    if (window.matchMedia('(max-device-width: 960px)').matches)
+        return true;
+    else
+        return false;
+}
