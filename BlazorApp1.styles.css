@@ -497,6 +497,30 @@ body[b-18gqrwoh4t] {
     visibility:visible;
     z-index: 10;
 }
+/* /Phone/PhoneCharacterViewer.razor.rz.scp.css */
+.PhoneCharacterMainContainer[b-r4lzotr6ui]{
+
+}
+.PhoneCharacterImage[b-r4lzotr6ui]{
+    width:100vw;
+    min-height: 100vw;
+}
+.PhoneCharacterBlackBanner[b-r4lzotr6ui]{
+    background: black;
+    padding: 10px 20px 10px 20px;
+}
+.PhoneCharacterDetailViewer[b-r4lzotr6ui]{
+    padding:5px 5px 5px 0;
+}
+.PhoneCharacterDetailViewerHeader[b-r4lzotr6ui]{
+    border-bottom:1px solid white;
+    width:70%;
+    padding-left:10px;
+}
+.PhoneCharacterDetailViewerBody[b-r4lzotr6ui]{
+    opacity:0.75;
+    margin-left:20px;
+}
 /* /Phone/PhoneMenu.razor.rz.scp.css */
 .PhoneMenuHeader[b-jmq2v4kwnu] {
     position: fixed;
