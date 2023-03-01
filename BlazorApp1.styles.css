@@ -468,35 +468,7 @@ body[b-18gqrwoh4t] {
     background-color: #14134E;
     color:white;
     font-family: Roboto;
-}
 
-.PhoneContainer[b-18gqrwoh4t]{
-    position:relative;
-}
-.FullScrenPhoneItem[b-18gqrwoh4t] {
-    height: 100vh;
-    width: 100%;
-    position: absolute;
-}
-.PhoneRumors[b-18gqrwoh4t]{
-    background: green;
-}
-.PhoneCharacterList[b-18gqrwoh4t] {
-    background: red;
-}
-.PhoneDetails[b-18gqrwoh4t] {
-    background: blue;
-}
-.PhoneDebts[b-18gqrwoh4t] {
-    background: black;
-}
-
-.PhoneHidden[b-18gqrwoh4t]{
-    visibility: collapse;
-}
-.PhoneOnTop[b-18gqrwoh4t] {
-    visibility: visible;
-    z-index: 10;
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-45rkf8v3vv] {
