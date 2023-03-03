@@ -20,3 +20,10 @@ async function IsPhone() {
     else
         return false;
 }
+
+async function ScroolToTop() {
+    window.scrollTo({
+        top: 0,
+        behavior: "instant"
+    });
+}

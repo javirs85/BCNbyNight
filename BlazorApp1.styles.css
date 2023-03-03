@@ -19,6 +19,19 @@
     gap:5px;
 }
 
+.PhoneOuterShell[b-au7xlb2cqo] {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: black;
+    width: 100vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    z-index:12;
+}
+
 .ListItem[b-au7xlb2cqo] {
     padding: 10px;
     width: 300px;
@@ -471,20 +484,44 @@ li:not(:last-child)[b-rgvjjultdm]
 }
 /* /Pages/MainPage.razor.rz.scp.css */
 body[b-18gqrwoh4t] {
-    background-color: #14134E;
-    color:white;
+    background-color: #1C1E20;
+    color: white;
     font-family: Roboto;
-
 }
 
 .PhoneMainContainer[b-18gqrwoh4t]{
     position:relative;
     height: 100vh;
+    transition: 1s all ease-in;
+}
+
+@keyframes slideInFromLeft-b-18gqrwoh4t{
+    0%{
+        transform: translateX(-100vw);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+@keyframes slideInFromRight-b-18gqrwoh4t {
+    0% {
+        transform: translateX(+100vw);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.StartAtLeft[b-18gqrwoh4t] {
+    animation: 0.3s ease-out 0s 1 slideInFromLeft-b-18gqrwoh4t;
+}
+.StartAtRight[b-18gqrwoh4t] {
+    animation: 0.3s ease-out 0s 1 slideInFromRight-b-18gqrwoh4t;
 }
 
 .PhoneBigDiv[b-18gqrwoh4t] {
     width: 100%;
-    height: 100%;
     position: absolute;
     top: 0;
     left: 0;
@@ -493,10 +530,14 @@ body[b-18gqrwoh4t] {
 .PhoneHidden[b-18gqrwoh4t]{
     visibility: collapse;
 }
-.PhoneOntop[b-18gqrwoh4t]{
-    visibility:visible;
+.PhoneOntop[b-18gqrwoh4t] {
+    visibility: visible;
     z-index: 10;
+    transition: 1s all ease-in;
+    transform: translate(0, 0);
 }
+
+
 /* /Phone/PhoneCharacterViewer.razor.rz.scp.css */
 .PhoneCharacterMainContainer[b-r4lzotr6ui]{
 
@@ -516,10 +557,50 @@ body[b-18gqrwoh4t] {
     border-bottom:1px solid white;
     width:70%;
     padding-left:10px;
+    margin-bottom:5px;
 }
 .PhoneCharacterDetailViewerBody[b-r4lzotr6ui]{
     opacity:0.75;
     margin-left:20px;
+    margin-right:20px;
+}
+
+.PhoneDebtItem[b-r4lzotr6ui] {
+    background: #2e3134;
+}
+
+.DeleteCharacterButton[b-r4lzotr6ui] {
+    color: red;
+    border: 1px solid red;
+    padding: 5px 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+}
+.DeleteCharacterButton:hover[b-r4lzotr6ui]{
+    opacity:1;
+}
+/* /Phone/PhoneFactionViewer.razor.rz.scp.css */
+.PhoneCharacterDetailViewer[b-wha4rpovsn] {
+    padding: 5px 5px 5px 0;
+}
+
+.PhoneCharacterDetailViewerHeader[b-wha4rpovsn] {
+    border-bottom: 1px solid white;
+    width: 70%;
+    padding-left: 10px;
+    margin-bottom: 5px;
+}
+
+.PhoneCharacterDetailViewerBody[b-wha4rpovsn] {
+    opacity: 0.75;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.Entry[b-wha4rpovsn]{
+
 }
 /* /Phone/PhoneMenu.razor.rz.scp.css */
 .PhoneMenuHeader[b-jmq2v4kwnu] {
@@ -561,10 +642,40 @@ body[b-18gqrwoh4t] {
 .PhoneMenuFactionHeader[b-jmq2v4kwnu] {
     background-color: #3b3e46;
     padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
+
 .PhoneMenuItemButton[b-jmq2v4kwnu]{
     padding:15px;
     padding-left: 20px;
+}
+
+.PhoneAddButton[b-jmq2v4kwnu] {
+    font-weight:300;
+    font-size: 30px;
+    opacity: 0.5;
+    cursor: pointer;
+    line-height: 21px;
+}
+.PhoneAddButton:hover[b-jmq2v4kwnu]{
+    opacity:1;
+}
+
+.PhoneAddFactionButton[b-jmq2v4kwnu]{
+    color:green;
+    border:1px solid green;
+    border-radius: 20px;
+    padding: 5px 15px;
+    opacity: 0.7;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.PhoneAddFactionButton:hover[b-jmq2v4kwnu]{
+    opacity:1;
 }
 /* /Shared/MainLayout.razor.rz.scp.css */
 .page[b-45rkf8v3vv] {
